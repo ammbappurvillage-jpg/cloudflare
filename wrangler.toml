@@ -1,0 +1,6 @@
+name = "mraprguild-tmdb-telegram-relay"
+main = "worker.js"
+compatibility_date = "2025-01-01"
+
+[triggers]
+crons = ["*/1 * * * *"]
